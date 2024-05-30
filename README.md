@@ -44,7 +44,7 @@ We utilize [Pilotscope](https://github.com/alibaba/pilotscope) to generate subqu
 
 ### Datasets
 
-The datasets utilized for model evaluation, pretraining, and finetuning are expected to be stored in the `datas/datasets` directory. Example datasets (30 datasets in total) are provided in the <u>data repository</u>, and the storage space required for these datasets is approximately **17GB**.
+The datasets utilized for model evaluation, pretraining, and finetuning are expected to be stored in the `datas/datasets` directory. Example datasets (30 datasets in total) are provided in the [data repository](https://drive.google.com/file/d/1-sSihVzjgrFbO_LoiwbjI2sVOPxO7N2G/view?usp=sharing), and the storage space required for these datasets is approximately **17GB**.
 
 ### Statistics
 
