@@ -21,11 +21,11 @@ torch.cuda.manual_seed(SEED)
 torch.cuda.manual_seed_all(SEED)
 
 
-args = get_args()
+args = get_args_finetune()
 print(args)
 
 # TRAIN_LIST = ['genome'] # choose from ['imdb','stats','ergastf1','genome']
-TRAIN_LIST = args.dataset
+TRAIN_LIST = [args.dataset]
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
