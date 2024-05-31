@@ -162,3 +162,4 @@ cython_debug/
 datas/datasets/
 datas/datasets.tar.gz
 setup/features/
+results/*.sql
