@@ -21,6 +21,7 @@ def get_args():
     arg_parser.add_argument('--wd', type=float, default=5e-5, help='')
     arg_parser.add_argument('--step_size', type=int, default=5, help='')
     arg_parser.add_argument('--gamma', type=float, default=0.90, help='')
+    arg_parser.add_argument('--epochs', type=int, default=150, help='')
 
     args = arg_parser.parse_args()
     return args
@@ -45,6 +46,7 @@ def get_args_finetune():
     arg_parser.add_argument('--wd', type=float, default=5e-5, help='')
     arg_parser.add_argument('--step_size', type=int, default=5, help='')
     arg_parser.add_argument('--gamma', type=float, default=0.90, help='')
+    arg_parser.add_argument('--epochs', type=int, default=100, help='')
 
     arg_parser.add_argument('--dataset', type=str, default='genome', help='')
 
